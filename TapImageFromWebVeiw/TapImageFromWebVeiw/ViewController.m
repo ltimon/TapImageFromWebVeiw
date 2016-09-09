@@ -19,10 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self starLoadHtml];
-    [self performSelector:@selector(js) withObject:nil afterDelay:5.0];
-}
--(void)js{
-  
 }
 /**
  *  开始加载网页信息
